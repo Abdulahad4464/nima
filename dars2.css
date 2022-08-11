@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+--qizil:rgb(0, 255, 76);
+--oq:grey;
+--size:25px;
+--border:5px solid rgb(0, 4, 255);
+}
+.title{
+    margin: 20px auto;
+    text-align: center;
+    color: var(--qizil);
+    border: var(--border);
+}
+.desc{
+    background: var(--qizil);
+    color: var(--oq);
+    font-size: var(--size);
+}
+.btn{
+    background: var(--qizil);
+    border: 2px solid var(--qizil);
+    color: var(--oq);
+    padding: 15px;
+    border-radius: var(--size);
+    border: var(--border);
+}
